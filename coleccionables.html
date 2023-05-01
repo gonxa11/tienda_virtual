@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <span class="logo"><img src="img/logo.png"  alt=""></span>
+            <input type="checkbox" id="menu">
+            <label for="menu"><img src="img/menu.png" class="menu-icono" alt=""></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">inicio</a></li>
+                    <li><a href="consolas.html">Consolas</a></li>
+                    <li><a href="juegos.html">Juegos</a></li>
+                    <li><a href="noticias.html">noticias</a></li>
+                    <li><a href="coleccionables.html">coleccionables</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <span id="CartCount">0</span>
+                        <img src="img/car.svg" id="img-carrito">
+                        <div id="carrito">
+                            <ul id="lista-carrito">
+                                <li>Imagen</li>
+                                <li>Nombre</li>
+                                <li>Precio</li>
+                                <li>Cantidad</li>
+                                <li></li>
+                            </ul>
+                            <div class="lista">
+                            </div>
+                            <div class="pago">
+                                <h3>total:</h3>
+                                <span class="totalpagar">$0</span>
+                            </div>
+                            <div class="ter">
+                                <button id="vaciar-carrito" class="btn3">Vaciar</button>
+                                <a href="#" class="btn3">Terminar compra</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-content container">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>tus figuras favoritas
+                                    y cartas coleccionables
+                                </h1>
+                            </div>
+                            <div class="header-img">
+                                <img src="coleccionables/f0.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <hr class="container">
+    <section class="promos container" id="lista-1">
+        <h2>figuras y cartas</h2>
+        <div class="categories">
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>mikasa ackerman</h3>
+                    <div class="prices">
+                        <p class="precio">$2500000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="1">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/f1.webp" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>luffy gear 5</h3>
+                    <div class="prices">
+                        <p class="precio">$3500000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="2">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/f2.jpg" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>nezuko</h3>
+                    <div class="prices">
+                        <p class="precio">$2500000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="3">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/f3.jpg" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Trafalgar Law girl</h3>
+                    <div class="prices">
+                        <p class="precio">$2500000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="4">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/f4.jpg" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>ghost rider cowboy</h3>
+                    <div class="prices">
+                        <p class="precio">$2350000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="5">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/f5.jpg" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Estatua God of War Kratos & Atreus</h3>
+                    <div class="prices">
+                        <p class="precio">$3000000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="6">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/f6.jpg" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>pokemones ghost type</h3>
+                    <div class="prices">
+                        <p class="precio">$2000000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="7">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/f7.jpg" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Yumeko Jabami</h3>
+                    <div class="prices">
+                        <p class="precio">$2500000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="8">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/f8.jpg" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>goku ssj</h3>
+                    <div class="prices">
+                        <p class="precio">$2000000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="9">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/f9.jpeg" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>light yagami & ryuk</h3>
+                    <div class="prices">
+                        <p class="precio">$2200000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="10">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/f10.jpg" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>cartas coleccionables de pokemon</h3>
+                    <div class="prices">
+                        <p class="precio">$100000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="11">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/ct1.jpeg" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>cartas coleccionables de pokemon</h3>
+                    <div class="prices">
+                        <p class="precio">$100000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="12">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/ct2.jpg" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>cartas coleccionables de digimon</h3>
+                    <div class="prices">
+                        <p class="precio">$100000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="13">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/ct3.jpg" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>cartas coleccionables de yu gi oh</h3>
+                    <div class="prices">
+                        <p class="precio">$100000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="14">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/ct4.jpg" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>cartas coleccionables de yu gi oh</h3>
+                    <div class="prices">
+                        <p class="precio">$100000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="15">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/ct5.jpg" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>cartas coleccionables de dragon ball super</h3>
+                    <div class="prices">
+                        <p class="precio">$100000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="16">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/ct6.webp" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>cartas coleccionables de dragon ball heroes</h3>
+                    <div class="prices">
+                        <p class="precio">$100000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="17">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/ct7.jpg" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>cartas coleccionables de pokemon</h3>
+                    <div class="prices">
+                        <p class="precio">$100000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="18">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/ct8.webp" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>chucky girl</h3>
+                    <div class="prices">
+                        <p class="precio">$3500000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="19">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/f11.webp" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>naruto uzumaki</h3>
+                    <div class="prices">
+                        <p class="precio">$2100000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="20">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/f12.jpg" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>The Batman Who Laughs</h3>
+                    <div class="prices">
+                        <p class="precio">$5000000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="21">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/f13.jpg" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>figure girl</h3>
+                    <div class="prices">
+                        <p class="precio">$4000000</p>
+                    </div>
+                    <button class="agregar-carrito btn3" data-id="22">Agregar al carrito</button>
+                </div>
+                <div class="categorie-img">
+                    <img src="coleccionables/f14.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="container">
+    <footer class="footer container">
+        <div class="link">
+            <h3>creador</h3>
+            <a href="https://github.com/gonxa11"><i class="fa-brands fa-github"></i>Desarrollado por gonxa11</a>
+        </div>
+        <div class="link">
+            <h3>siguenos</h3>
+            <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/es/"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="javascript/coleccionables.js"></script>
+</body>
+</html>

@@ -1,0 +1,1793 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juegos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <span class="logo"><img src="img/logo.png" alt=""></span>
+            <input type="checkbox" id="menu">
+            <label for="menu"><img src="img/menu.png" class="menu-icono" alt=""></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">inicio</a></li>
+                    <li><a href="consolas.html">Consolas</a></li>
+                    <li><a href="juegos.html">Juegos</a></li>
+                    <li><a href="noticias.html">noticias</a></li>
+                    <li><a href="coleccionables.html">coleccionables</a></li>
+                </ul>
+            </nav>
+            <div class="juegos container">
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#lista-1">ps1</a></li>
+                        <li><a href="#lista-2">ps2</a></li>
+                        <li><a href="#lista-3">ps3</a></li>
+                        <li><a href="#lista-4">ps4</a></li>
+                        <li><a href="#lista-5">ps5</a></li>
+                        <li><a href="#lista-6">switch</a></li>
+                        <li><a href="#lista-7">3ds</a></li>
+                        <li><a href="#lista-8">ds</a></li>
+                        <li><a href="#lista-9">gamecube</a></li>
+                        <li><a href="#lista-10">gba</a></li>
+                        <li><a href="#lista-11">wii</a></li>
+                        <li><a href="#lista-12">xbox360</a></li>
+                        <li><a href="#lista-13">nes</a></li>
+                        <li><a href="#lista-14">xbox</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <span id="CartCount">0</span>
+                        <img src="img/car.svg" id="img-carrito">
+                        <div id="carrito">
+                            <ul id="lista-carrito">
+                                <li>Imagen</li>
+                                <li>Nombre</li>
+                                <li>Precio</li>
+                                <li>Cantidad</li>
+                                <li></li>
+                            </ul>
+                            <div class="lista">
+                            </div>
+                            <div class="pago">
+                                <h3>total:</h3>
+                                <span class="totalpagar">$0</span>
+                            </div>
+                            <div class="ter">
+                                <button id="vaciar-carrito" class="btn3">Vaciar</button>
+                                <button class="btn3">Terminar compra</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-content container">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>tus juegos favoritos</h1>
+                                <div class="prices">
+                                </div>
+                            </div>
+                            <div class="header-img">
+                                <img src="portadas/consolas.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <hr class="container">
+    <section class="products container" id="lista-1">
+        <h2>playstation</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps1/pt1.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>crash bash</h3>
+                            <p class="precio">$70000</p>
+                            <button class="agregar-carrito btn3" data-id="1">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps1/pt2.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>castlevania</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="2">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps1/pt3.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>medievil</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="3">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps1/pt4.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>spider-man</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="4">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps1/pt5.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>hercules</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="5">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps1/pt6.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>tarzan</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="6">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps1/pt7.webp" alt="">
+                        <div class="product-txt">
+                            <h3>resident evil 2</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="7">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps1/pt8.webp" alt="">
+                        <div class="product-txt">
+                            <h3>spiro</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="8">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps1/pt9.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>harry potter y la camara secreta</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="9">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps1/pt10.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Rival Schools</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="10">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <hr class="container">
+    <section class="products container" id="lista-2">
+        <h2>playstation 2</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps2/pt1.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Dragon Ball Z: Budokai Tenkaichi 3</h3>
+                            <p></p>
+                            <p class="precio">$80000</p>
+                            <button class="agregar-carrito btn3" data-id="11">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps2/pt2.webp" alt="">
+                        <div class="product-txt">
+                            <h3>god of war</h3>
+                            <p></p>
+                            <p class="precio">$80000</p>
+                            <button class="agregar-carrito btn3" data-id="12">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps2/pt3.webp" alt="">
+                        <div class="product-txt">
+                            <h3>gta san andreas</h3>
+                            <p></p>
+                            <p class="precio">$80000</p>
+                            <button class="agregar-carrito btn3" data-id="13">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps2/pt4.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>mortal kombat shaolin monks</h3>
+                            <p></p>
+                            <p class="precio">$80000</p>
+                            <button class="agregar-carrito btn3" data-id="14">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps2/pt5.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Saint Seiya: The Hades</h3>
+                            <p></p>
+                            <p class="precio">$80000</p>
+                            <button class="agregar-carrito btn3" data-id="15">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps2/pt6.webp" alt="">
+                        <div class="product-txt">
+                            <h3>black</h3>
+                            <p></p>
+                            <p class="precio">$80000</p>
+                            <button class="agregar-carrito btn3" data-id="16">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps2/pt7.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>bakugan</h3>
+                            <p></p>
+                            <p class="precio">$80000</p>
+                            <button class="agregar-carrito btn3" data-id="17">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps2/pt8.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>piratas del caribe at world's end</h3>
+                            <p></p>
+                            <p class="precio">$80000</p>
+                            <button class="agregar-carrito btn3" data-id="18">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps2/pt9.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>principe de persia the two thrones</h3>
+                            <p></p>
+                            <p class="precio">$80000</p>
+                            <button class="agregar-carrito btn3" data-id="19">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps2/pt10.webp" alt="">
+                        <div class="product-txt">
+                            <h3>Jak X: Combat Racing</h3>
+                            <p></p>
+                            <p class="precio">$80000</p>
+                            <button class="agregar-carrito btn3" data-id="20">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <hr class="container">
+    <section class="products container" id="lista-3">
+        <h2>playstation 3</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps3/pt1.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Street Fighter X Tekken</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="21">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps3/pt2.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>inFAMOUS 2</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="22">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps3/pt3.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>ASSASSIN'S CREEDII</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="23">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps3/pt4.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>THE LAST OF US</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="24">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps3/pt5.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>UNCHARTED 2</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="25">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps3/pt6.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>gta v</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="26">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps3/pt7.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>BATMAN ARKHAM CITY</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="27">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps3/pt8.webp" alt="">
+                        <div class="product-txt">
+                            <h3>ULTIMATE MARVEL VS. CAPCOM</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="28">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps3/pt9.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>FARCRYS</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="29">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps3/pt10.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>resident evil 4</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="30">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <hr class="container">
+    <section class="products container" id="lista-4">
+        <h2>playstation 4</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps4/pt1.webp" alt="">
+                        <div class="product-txt">
+                            <h3>GOD OF WAR</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="31">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps4/pt2.webp" alt="">
+                        <div class="product-txt">
+                            <h3>dragon ball z fighterZ</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="32">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps4/pt3.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>ASSASSIN'S CREED VALHALLA</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="33">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps4/pt4.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Bloodborne</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="34">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps4/pt5.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>UNCHARTED 4</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="35">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps4/pt6.webp" alt="">
+                        <div class="product-txt">
+                            <h3>STREET GHIER V</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="36">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps4/pt7.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>BATTLEFIELD 1</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="37">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps4/pt8.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>RESIDENT EVIL 3</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="38">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps4/pt9.webp" alt="">
+                        <div class="product-txt">
+                            <h3>FINAL FANTASY.VII</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="39">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps4/pt10.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>MORTAL KOMBAT 11</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="40">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <hr class="container">
+    <section class="products container" id="lista-5">
+        <h2>playstation 5</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps5/pt1.webp" alt="">
+                        <div class="product-txt">
+                            <h3>HORIZON FORBIDDEN WEST</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="41">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps5/pt2.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>VILLAGE RESIDENT EVILT</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="42">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps5/pt3.webp" alt="">
+                        <div class="product-txt">
+                            <h3>god of war ragnarok</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="43">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps5/pt4.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>fifa 23</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="44">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps5/pt5.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>spider man miles morales</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="45">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps5/pt6.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>HOGWARTS LEGACY</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="46">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps5/pt7.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>ELDEN RING</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="47">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps5/pt8.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>THE LAST OF US PARTE I</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="48">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps5/pt9.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Ratchet & Clank: Rift Apart</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="49">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ps5/pt10.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>THE LAST OF US PART II</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="50">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <hr class="container">
+    <section class="products container" id="lista-6">
+        <h2>nintendo switch</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/switch/pt1.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>pokemon escarlata</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="51">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/switch/pt2.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>super smash bros ultimate</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="52">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/switch/pt3.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>THE LEGEND OF ZELDA BREATH THE WILD</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="53">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/switch/pt4.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>METROID PRIME REMASTERED</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="54">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/switch/pt5.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Xenoblade Chronicles 3</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="55">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/switch/pt6.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Kirby's TM Return to Dream Land DELUXE</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="56">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/switch/pt7.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>MONSTER HUNTER RISE</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="57">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/switch/pt8.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>leyendas pokemon: arceus</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="58">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/switch/pt9.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>SUPER MARIO ODYSSEY</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="59">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/switch/pt10.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>BAYONETTA 3</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="60">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <hr class="container">
+    <section class="products container" id="lista-7">
+        <h2>nintendo 3ds</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/3ds/pt1.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>POKEMON ULTRASOL</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="61">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/3ds/pt2.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>INAZUMA ELEVEN Chrono Stones</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="62">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/3ds/pt3.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>yo kai watch</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="63">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/3ds/pt4.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Monster Hunter Stories </h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="64">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/3ds/pt5.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>inazuma eleven go sombra </h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="65">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/3ds/pt6.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>persona q2</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="66">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/3ds/pt7.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Resident Evil: Revelations</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="67">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/3ds/pt8.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>pokemon zafiro alfa</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="68">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/3ds/pt9.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>The Legend of Zelda: A Link Between Worlds</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="69">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/3ds/pt10.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Super Smash Bros.</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="70">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <hr class="container">
+    <section class="products container" id="lista-8">
+        <h2>nintendo ds</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ds/pt1.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>pokemon negro 2</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="71">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ds/pt2.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>new super mario bros</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="72">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ds/pt3.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>pokemon platino</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="73">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ds/pt4.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>inazuma eleven</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="74">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ds/pt5.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>The Legend of Zelda: Phantom Hourglass</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="75">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ds/pt6.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>mario kart ds</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="76">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ds/pt7.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Dragon Quest IX: Centinelas del firmamento</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="77">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ds/pt8.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Inazuma Eleven 2 ventisca eterna</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="78">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ds/pt9.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Yoshi's Island DS</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="79">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/ds/pt10.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Pokémon Mundo Misterioso</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="80">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <hr class="container">
+    <section class="products container" id="lista-9">
+        <h2>gamecube</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/gamecube/pt1.png" alt="">
+                        <div class="product-txt">
+                            <h3>mario kart double dash</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="81">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/gamecube/pt2.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>luisi's mansion</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="82">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/gamecube/pt3.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>mario party 7</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="83">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/gamecube/pt4.png" alt="">
+                        <div class="product-txt">
+                            <h3>dragon ball z Budokai</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="84">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/gamecube/pt5.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Super Mario Strikers</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="85">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/gamecube/pt6.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Prince of Persia: Las Arenas del Tiempo</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="86">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/gamecube/pt7.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>principe de persia the two thrones</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="87">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/gamecube/pt8.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>resident evil 4</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="88">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/gamecube/pt9.webp" alt="">
+                        <div class="product-txt">
+                            <h3>Wario World</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="89">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/gamecube/pt10.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Paper Mario: The Thousand-Year Door</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="90">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <section class="products container" id="lista-10">
+        <h2>game boy advance</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/gba/pt1.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Advance Wars</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="91">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/gba/pt2.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Kingdom Hearts: Chain of Memories</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="92">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/gba/pt3.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Pokemon Esmeralda</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="93">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/gba/pt4.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Pokémon rojo fuego</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="94">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/gba/pt5.webp" alt="">
+                        <div class="product-txt">
+                            <h3>Mario & Luigi: Superstar Saga</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="95">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/gba/pt6.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Metroid: Zero Mission</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="96">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/gba/pt7.webp" alt="">
+                        <div class="product-txt">
+                            <h3>Jurassic Park III: Park Builder</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="97">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/gba/pt8.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Popeye: Rush for Spinach</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="98">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/gba/pt9.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Super Mario Advance 4: Super Mario Bros. 3</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="99">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/gba/pt10.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Metal Slug</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="100">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <hr class="container">
+    <section class="products container" id="lista-11">
+        <h2>nintendo wii</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/wii/pt1.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Super Mario Galaxy</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="101">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/wii/pt2.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>The Legend of Zelda: Twilight Princess</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="102">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/wii/pt3.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Mario Strikers: Charged Football</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="103">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/wii/pt4.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Bakugan Battle Brawlers</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="104">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/wii/pt5.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Inazuma Eleven Strikers</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="105">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/wii/pt6.webp" alt="">
+                        <div class="product-txt">
+                            <h3>Inazuma Eleven GO Strikers 2013</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="106">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/wii/pt7.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>The Last Story</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="107">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/wii/pt8.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Mario Kart Wii</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="108">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/wii/pt9.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Mario Party 9</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="109">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/wii/pt10.webp" alt="">
+                        <div class="product-txt">
+                            <h3>Dragon Ball Z: Budokai Tenkaichi 3</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="110">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <hr class="container">
+    <section class="products container" id="lista-12">
+        <h2>xbox 360</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/xbox360/pt1.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Resident Evil 6</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="111">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/xbox360/pt2.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Need for Speed: Most Wanted</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="112">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/xbox360/pt3.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>gta V</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="113">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/xbox360/pt4.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Alice: Madness Returns</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="114">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/xbox360/pt5.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>BioShock 2</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="115">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/xbox360/pt6.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Hitman: Absolution</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="116">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/xbox360/pt7.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Red Dead Redemption: Undead Nightmare Videojuego</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="117">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/xbox360/pt8.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Far Cry 2</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="118">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/xbox360/pt9.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Left 4 Dead</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="119">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/xbox360/pt10.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Gears of War 2</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="120">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <hr class="container">
+    <section class="products container" id="lista-13">
+        <h2>nintendo psp</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/psp/pt1.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Shin Megami Tensei: Persona 3</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="121">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/psp/pt2.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>God of War: Chains of Olympus</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="122">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/psp/pt3.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>God of War: Ghost of Sparta</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="123">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/psp/pt4.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Naruto Shippuden Ultimate Ninja Impact</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="124">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/psp/pt5.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>FIFA 14</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="125">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/psp/pt6.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Pro Evolution Soccer 2014</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="126">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/psp/pt7.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Fate/ExtraCCC</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="127">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/psp/pt8.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>7th Dragon 2020-II</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="128">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/psp/pt9.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>God Eater 2</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="129">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/psp/pt10.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Lord of Apocalypse</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="130">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <hr class="container">
+    <section class="products container" id="lista-14">
+        <h2>xbox</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/xbox/pt1.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>gta san andreas</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="131">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/xbox/pt2.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Halo 2</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="132">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/xbox/pt3.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Mortal Kombat: Deadly Alliance</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="133">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/xbox/pt4.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Call of Duty 3</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="134">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/xbox/pt5.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Avatar: la leyenda de Aang</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="135">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/xbox/pt6.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Marvel: Ultimate Alliance</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="136">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/xbox/pt7.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Lego Star Wars II: The Original Trilogy</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="137">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/xbox/pt8.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>FIFA Street 2</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="138">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/xbox/pt9.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Sonic Riders</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="139">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="portadas/xbox/pt10.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Ultimate Spider-Man</h3>
+                            <p></p>
+                            <p class="precio">$50000</p>
+                            <button class="agregar-carrito btn3" data-id="140">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <hr class="container">
+    <footer class="footer container">
+        <div class="link">
+            <h3>creador</h3>
+            <a href="https://github.com/gonxa11"><i class="fa-brands fa-github"></i>Desarrollado por gonxa11</a>
+        </div>
+        <div class="link">
+            <h3>siguenos</h3>
+            <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/es/"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
