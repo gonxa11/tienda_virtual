@@ -394,6 +394,17 @@ button{
     color: #feffff;
 }
 @media(max-width:991px){
+    .tdt{
+        width: 100%;
+    }
+    .tt{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    img{
+        width: 100%;
+    }
     .menu{
         padding: 20px;
         background-color: transparent;
